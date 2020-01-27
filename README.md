@@ -12,3 +12,9 @@ CREATE TABLE `users` (
   UNIQUE KEY `username` (`username`)
 ) ENGINE=InnoDB AUTO_INCREMENT=213 DEFAULT CHARSET=utf8mb4 COMMENT='Таблица пользователей'
 ```
+
+
+composer Client library for Google APIs
+```bash
+composer require google/apiclient:"^2.0"
+```
